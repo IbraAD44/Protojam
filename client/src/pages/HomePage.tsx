@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "./homePage.css";
-import { useState, useEffect } from "react";
 function HomePage() {
   const articles = [
     {
