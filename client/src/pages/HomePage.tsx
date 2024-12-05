@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "./homePage.css";
-
 function HomePage() {
   const articles = [
     {
@@ -27,7 +26,6 @@ function HomePage() {
       altText: "Article 4",
       link: "#",
     },
-
     {
       image:
         "https://upload.wikimedia.org/wikipedia/commons/9/99/African_Elephant.jpg",
