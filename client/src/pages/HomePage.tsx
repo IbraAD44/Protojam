@@ -1,25 +1,6 @@
-<<<<<<< HEAD
-import { useEffect, useState } from "react";
-
-const HomePage = () => {
-  const [, setAnimal] = useState(null);
-
-  useEffect(() => {
-    fetch("https://www.freetestapi.com/api/v1/animals")
-      .then((res) => res.json())
-      .then((data) => setAnimal(data));
-  }, []);
-
-  return (
-    <div>
-      <h1>HOMe</h1>
-    </div>
-  );
-};
-=======
 import { NavLink } from "react-router-dom";
 import "./homePage.css";
-
+import { useState, useEffect } from "react";
 function HomePage() {
   const articles = [
     {
@@ -46,7 +27,6 @@ function HomePage() {
       altText: "Article 4",
       link: "#",
     },
-
     {
       image:
         "https://upload.wikimedia.org/wikipedia/commons/9/99/African_Elephant.jpg",
@@ -78,6 +58,5 @@ function HomePage() {
     </main>
   );
 }
->>>>>>> 47fac79d2ce3a0dcb7da72a48dd2f6a6cf7ab54e
 
 export default HomePage;
