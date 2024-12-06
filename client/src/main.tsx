@@ -27,8 +27,9 @@ const router = createBrowserRouter([
     element: <App />, // Renders the App component for the home page
     children: [
       {
-        path: "",
+        path: "/",
         element: <HomePage />,
+        index: true,
       },
       {
         path: "/contacte",
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/dtail",
+        path: "/dtail/:id",
         element: <Detail />,
       },
     ],

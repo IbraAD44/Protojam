@@ -5,10 +5,13 @@ body {
 }
 
 #recent-articles {
+  margin-top: 20%;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
+  flex: 1 1 50%;
+  text-align: center;
 }
 
 .clickable-card {
@@ -53,4 +56,10 @@ body {
 
 .like-dons:hover {
   background-color: #0056b3;
+}
+
+.nemeAnimal {
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
