@@ -2,9 +2,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Contacte from "./components/cotacte/Contacte";
 import About from "./components/About/About";
+import Contacte from "./components/cotacte/Contacte";
+import HomePage from "./pages/HomePage";
 import Detail from "./pages/detail/Detail";
 /* ************************************************************************* */
 
