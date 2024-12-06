@@ -755,7 +755,7 @@ function HomePage() {
 
   return (
     <main>
-      <section id="recent-articl
+      <section id="recent-articles">
         {articles?.map((el) => (
           <NavLink
             to={`/dtail/${el.id}`}
@@ -763,10 +763,8 @@ function HomePage() {
             className="clickable-card"
           >
             <h3 className="nemeAnimal">{el.name}</h3>
+
             <img src={el.image} alt={el.name} />
-            <a href="/" className="like-dons">
-              Dons
-            </a>
           </NavLink>
         ))}
       </section>

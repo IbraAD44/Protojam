@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import "./detail.css";
 
 const articles: Animal[] = [
   {
@@ -771,10 +772,11 @@ const Detail = () => {
   if (article)
     return (
       <>
-        <main>
+        <main className=" mainOf">
           <section id="animal-detail">
-            <h1>{article.name}</h1>
             <img src={article.image} alt={article.name} />
+            <h1>{article.name}</h1>
+
             <p>{article.description}</p>
             <ul>
               <li>Species: {article.species}</li>

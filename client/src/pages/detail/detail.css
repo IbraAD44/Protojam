@@ -1,0 +1,34 @@
+.mainOf {
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgb(181, 181, 181);
+  width: 50%;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 0px 11px rgb(41, 41, 41);
+  margin-bottom: 40px;
+}
+
+.mainOf img {
+  margin-left: 26%;
+  height: 400px;
+  width: 300px;
+  border-radius: 16px;
+}
+
+.mainOf li {
+  list-style: none;
+  font-size: 20px;
+  padding: 11px;
+  color: rgb(4, 4, 52);
+}
+
+.mainOf h1 {
+  text-align: center;
+  color: rgb(84, 63, 1);
+  padding: 16px;
+}
+.mainOf p {
+  font-size: 22px;
+  color: rgb(4, 25, 26);
+}
