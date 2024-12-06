@@ -1,0 +1,15 @@
+p {
+  background-color: #dbe9ee;
+  width: 75%;
+  margin: auto;
+  margin-top: 7%;
+  height: 500px;
+  margin-bottom: 10%;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+p h3 {
+  padding: 13px;
+  color: #4a6fa5;
+}
