@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./homePage.css";
+
 function HomePage() {
   const articles = [
     {
@@ -762,6 +763,7 @@ function HomePage() {
             className="clickable-card"
           >
             <h3 className="nemeAnimal">{el.name}</h3>
+
             <img src={el.image} alt={el.name} />
           </NavLink>
         ))}
