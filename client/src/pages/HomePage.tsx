@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./homePage.css";
+
 function HomePage() {
   const articles = [
     {
@@ -754,7 +755,7 @@ function HomePage() {
 
   return (
     <main>
-      <section id="recent-articles">
+      <section id="recent-articl
         {articles?.map((el) => (
           <NavLink
             to={`/dtail/${el.id}`}
@@ -763,6 +764,9 @@ function HomePage() {
           >
             <h3 className="nemeAnimal">{el.name}</h3>
             <img src={el.image} alt={el.name} />
+            <a href="/" className="like-dons">
+              Dons
+            </a>
           </NavLink>
         ))}
       </section>
