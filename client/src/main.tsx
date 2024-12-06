@@ -2,9 +2,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import About from "./components/About/About";
-import Contacte from "./components/cotacte/Contacte";
 import HomePage from "./pages/HomePage";
+import Contacte from "./components/cotacte/Contacte";
+import About from "./components/About/About";
 import Detail from "./pages/detail/Detail";
 /* ************************************************************************* */
 
@@ -27,8 +27,9 @@ const router = createBrowserRouter([
     element: <App />, // Renders the App component for the home page
     children: [
       {
-        path: "",
+        path: "/",
         element: <HomePage />,
+        index: true,
       },
       {
         path: "/contacte",
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/dtail",
+        path: "/dtail/:id",
         element: <Detail />,
       },
     ],
